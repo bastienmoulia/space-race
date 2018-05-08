@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bastienmoulia/space-race.svg?branch=master)](https://travis-ci.org/bastienmoulia/space-race)
+
 # SpaceRace
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
