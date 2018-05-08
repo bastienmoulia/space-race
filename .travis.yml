@@ -10,4 +10,4 @@ script:
   - ng build --prod
 
 after_success:
-  — firebase deploy --project space-race-3ea43 --token $FIREBASE_TOKEN
+  - firebase deploy --project space-race-3ea43 --token $FIREBASE_TOKEN
