@@ -1,0 +1,9 @@
+<header>
+  <button (click)="toggleSidebar()" *ngIf="menu" class="material-icons">menu</button>
+  <button href="#" *ngIf="!menu" class="material-icons">close</button>
+  <span class="page-name">{{ page }}</span>
+  <div>
+    {{ ressource.credit | number:'1.0-0' }} $
+    {{ ressource.popularity | number:'1.0-0' }} %
+  </div>
+</header>

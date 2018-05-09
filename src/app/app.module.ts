@@ -8,6 +8,10 @@ import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
+import { BaseModule } from './base/base.module';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CoreModule,
+    SharedModule,
+    BaseModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
